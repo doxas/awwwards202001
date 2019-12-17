@@ -18,7 +18,7 @@ void main(){
     // step(-1.0, 0.0 ) == 1.0
     // step( 2.0, 3.0 ) == 1.0
     float horizon = step(p.y, 0.0);
-    
+
     // float wave = step(p.y, sin(p.x + time));
 
     gl_FragColor = vec4(vec3(horizon), 1.0);
