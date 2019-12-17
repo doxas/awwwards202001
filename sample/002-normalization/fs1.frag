@@ -5,7 +5,7 @@ uniform vec2 resolution;
 
 void main(){
     // the fragment shader is working on each pixel.
-    // convert the range of fragment position are 0.0 ~ 1.0
+    // convert the fragment position, converted values are the range of 0.0 ~ 1.0
     vec2 fragmentPosition = gl_FragCoord.xy / resolution;
     
     // convert the origin from left bottom to center.
