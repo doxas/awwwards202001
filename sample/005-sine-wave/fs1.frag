@@ -16,7 +16,7 @@ void main(){
     // step( 1.0, 1.0 ) == 0.0
     // step( 2.0, 1.0 ) == 0.0
     // step(-1.0, 0.0 ) == 1.0
-    // step( 2.0, 5.0 ) == 1.0
+    // step( 2.0, 3.0 ) == 1.0
     float horizon = step(p.y, 0.0);
     
     // float wave = step(p.y, sin(p.x + time));
