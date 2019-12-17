@@ -13,7 +13,7 @@ void main(){
 
     // declaration and initialize a variable.
     vec3 neonColor = vec3(0.0);
-    
+
     // additional calculate in the loop.
     for(int i = 0; i < COUNT; ++i){
         // convert from int to float.
